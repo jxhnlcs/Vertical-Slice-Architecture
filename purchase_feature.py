@@ -3,7 +3,7 @@ from user_interface_console import UserInterfaceConsole
 from product import Product
 from product_service import ProductService
 
-# User interface virou purchase feature, chama repository, service
+# User interface virou purchase feature, chama repository, service e interfaceconsole
 
 class PurchaseFeature:
     def __init__(self, product_repository: ProductRepository, product_service: ProductService, user_interface_console: UserInterfaceConsole) -> None:
